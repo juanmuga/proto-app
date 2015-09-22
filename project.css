@@ -1,0 +1,178 @@
+.body {
+	
+}
+
+
+.main-container {
+	background-color: black;
+	
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: stretch;
+	
+}
+
+.main-nav {
+    
+	
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+    
+    align-items: center;
+
+    
+	border: 2px solid rgba(45,74,95,.9);
+	border-radius: inherit;
+
+	order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+
+	
+
+}
+
+.main-header {
+	order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 10px;
+    
+}
+
+.logo {
+	width: 250px;
+}
+
+.sidebar {
+	order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+
+
+
+	display: flex;
+	
+	position: relative;
+	margin-bottom: 50px;
+}
+
+.ul-sidebar {
+	
+	padding: 0;
+    list-style-type: none;
+
+
+}
+
+.profilepic {
+		width: 200px;
+}
+
+.modelo{
+		text-align: center;
+		height: 44px;
+		align-content: center;
+   		
+
+}
+
+
+.li-links{
+	margin-top: 10px;
+
+}
+
+
+.main-content {
+
+	order: 0;
+    flex: 1 1 auto;
+    align-self: center;
+
+	width: 500px;
+
+	display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    
+
+}
+
+.div308 {
+			background-color: white;
+			margin-top: 20px;
+			padding-left: 5px;
+			padding-right: 5px;
+
+}
+
+.img308 {
+		width: 500px;
+		padding: 25px;
+		margin: 10px;
+		border-style: solid;
+    	border-width: 5px;
+    	border-color: #A8A8A8;
+
+}
+
+
+.img {
+		border-style: solid;
+    	border-width: 5px;
+    	border-color: #A8A8A8;
+		width: 400px;
+		padding: 25px;
+		margin: 10px;
+}
+
+
+.tablelinks {
+	font-size: 12px;
+	
+}
+
+
+.content { 
+	order: 0;
+    flex: 1 1 auto;
+    align-self: auto;
+	
+}
+
+
+.parrafo {
+	margin: 10px;
+	padding: 25px;
+	border: 2px solid rgba(45,74,95,.9);
+	border-radius: inherit;
+	background: rgba(255,255,255,.8);
+	font-size: 14px;
+}
+
+.comments {
+	margin: 20px auto;
+	padding: 25px;
+	width: 80%;
+	border: 2px solid #1d2e3a;
+	border-radius: 10px;
+	background: #3e5b70;
+}
+
+
+
+
+
+
+
