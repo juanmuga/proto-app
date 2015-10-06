@@ -185,6 +185,10 @@
 
 
 .parrafo {
+
+	max-width:900px;
+    
+
 	margin: 10px;
 	padding: 25px;
 	border: 2px solid rgba(45,74,95,.9);
