@@ -4,7 +4,7 @@
 
 
 .main-container {
-	background-color: black;
+	
 	
     display: flex;
     flex-direction: row;
@@ -33,7 +33,7 @@
     flex: 0 1 auto;
     align-self: auto;
 
-	
+	 background-image: url("rubber5.jpg");
 
 }
 
@@ -105,6 +105,8 @@
     justify-content: center;
     align-content: center;
     align-items: center;
+
+
     
 
 }
@@ -127,7 +129,7 @@
 		margin: 10px;
 		border-style: solid;
     	border-width: 5px;
-    	border-color: #A8A8A8;
+    	border-color: #3e5b70;
     	box-shadow: 10px 10px 5px grey;
 
 }
@@ -136,9 +138,13 @@
 		display: inline-flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    align-content: stretch;
-    align-items: flex-start;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
 
 
@@ -146,10 +152,10 @@
 	
 	margin: 5px;
     padding: 5px;
-    border: 1px solid #0000ff;
+    border: 1px solid rgba(45,74,95,.9);
     height: auto;
     width: auto;
-    float: left;
+    float: center;
     text-align: center;
    	
 
